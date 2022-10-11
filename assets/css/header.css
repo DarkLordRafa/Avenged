@@ -1,0 +1,16 @@
+
+.mobile-menu-button{
+	width: 20%;
+}
+
+.mobile-menu-button span{
+	display: block;
+	height: 3px;
+	width: 8vw;
+	background-color: white;
+	margin-bottom: 2vw;
+}
+
+.header__logo{
+	width: 100%;
+}
