@@ -1,6 +1,7 @@
 
 .mobile-menu-button{
 	width: 20%;
+	cursor: pointer;
 }
 
 .mobile-menu-button span{
