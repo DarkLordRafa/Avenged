@@ -1,7 +1,12 @@
 
 .mobile-menu-button{
-	width: 20%;
 	cursor: pointer;
+	left: 2vw;
+	top: 5vw;
+	z-index: 99;
+	background-color: black;
+	border-radius: 10px;
+	padding: 3vw 4vw;
 }
 
 .mobile-menu-button span{
@@ -10,6 +15,10 @@
 	width: 8vw;
 	background-color: white;
 	margin-bottom: 2vw;
+}
+
+.mobile-menu-button span:last-child{
+	margin-bottom: 0;
 }
 
 .header__logo{
