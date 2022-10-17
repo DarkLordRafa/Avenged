@@ -44,7 +44,9 @@ section p{
 }
 
 .section__container video{
-	width: 100%;
+	width: 90vw;
+	height: 50vw;
+	object-fit: fill;
 }
 
 .section__container img{
