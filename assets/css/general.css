@@ -52,5 +52,5 @@ section p{
 .section__container img{
 	height: 60vw;
 	width: 100%;
-	object-fit: cover;
+	object-fit: fill;
 }

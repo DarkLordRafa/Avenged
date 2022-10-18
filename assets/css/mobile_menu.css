@@ -6,8 +6,6 @@
 .mobile-menu-modal{
 	width: 0;
 	height: 100vh;
-	overflow: hidden;
-	position: fixed;
 	transition: width 2s;
 	top: 20vw;
 	z-index: 99;
@@ -25,11 +23,29 @@
 	text-transform: uppercase;
 	text-align: left;
 	max-width: 0;
-	height: 100vh;
-	overflow-y: auto;
+	height: calc(100vh - 35vw);
+	overflow: hidden;
 	transition: max-width 0.4s;
 	z-index: 98;
 	margin-top: 15vw;
+}
+
+.mobile-menu ul{
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 100%;
+}
+
+.mobile-menu ul::-webkit-scrollbar {
+    display: block;
+    width: 3px;
+}
+.mobile-menu ul::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+    
+.mobile-menu ul::-webkit-scrollbar-thumb {
+    background-color: white;
 }
 
 .mobile-menu a{
