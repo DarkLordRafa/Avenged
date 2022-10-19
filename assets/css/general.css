@@ -54,3 +54,13 @@ section p{
 	width: 100%;
 	object-fit: fill;
 }
+
+.section__container figure{
+	width: 100%;
+}
+
+.section__container figcaption{
+	text-align: left;
+	color: #A9A9A9;
+	font-size: 4vw;
+}
