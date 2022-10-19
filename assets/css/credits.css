@@ -1,0 +1,13 @@
+
+#credits h4{
+	font-family: "Archivo";
+	font-weight: 900;
+	text-transform: uppercase;
+	font-size: 6vw;
+}
+
+#credits ul{
+	width: 70vw;
+	text-transform: uppercase;
+	font-size: 5vw;
+}

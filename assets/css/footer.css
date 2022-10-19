@@ -1,0 +1,10 @@
+
+.footer__copy{
+	color: #899499;
+	font-size: 4vw;
+}
+
+.footer__copy a{
+	text-decoration: underline;
+	color: white!important;
+}

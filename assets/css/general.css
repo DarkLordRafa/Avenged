@@ -64,3 +64,17 @@ section p{
 	color: #A9A9A9;
 	font-size: 4vw;
 }
+
+.section__container ul{
+	padding: 0!important;
+}
+
+.section__container ul a{
+	color: white!important;
+	text-decoration: underline;
+	font-size: 6vw;
+}
+
+.section__container ul a:hover{
+	color: gold!important;
+}
