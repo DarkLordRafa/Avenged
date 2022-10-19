@@ -73,8 +73,9 @@ section p{
 	color: white!important;
 	text-decoration: underline;
 	font-size: 6vw;
+	transition: color 0.3s;
 }
 
 .section__container ul a:hover{
-	color: gold!important;
+	color: #708090!important;
 }
