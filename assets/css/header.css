@@ -23,4 +23,23 @@
 
 .header__logo{
 	width: 100%;
+	cursor: pointer;
+}
+
+.deathbat-eyes{
+	margin-bottom: 5vw;
+}
+
+.deathbat-eyes div{
+	height: 1.5vw;
+	width: 1.5vw;
+	border-radius: 50%;
+	margin-left: 4.5vw;
+	margin-right: 4.5vw;
+	transition: 0.4s ease-in;
+}
+
+.deathbat-eyes-active{
+	background-color: white;
+	box-shadow: 0 0 7vw 5vw blue;
 }

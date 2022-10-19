@@ -7,10 +7,10 @@ const mobileMenu = document.querySelector(".mobile-menu");
 
 function closeMobileMenuModal(click){
 	if (click.target == mobileMenuModal){
-		body.classList.toggle("overflow-disabled");
-		mobileMenuModal.classList.toggle("mobile-menu-modal-opened");
-		mobileMenuWing.classList.toggle("mobile-menu__wing-opened");
-		mobileMenu.classList.toggle("mobile-menu-opened");
+		body.classList.remove("overflow-disabled");
+		mobileMenuModal.classList.remove("mobile-menu-modal-opened");
+		mobileMenuWing.classList.remove("mobile-menu__wing-opened");
+		mobileMenu.classList.remove("mobile-menu-opened");
 	}
 }
 
