@@ -85,3 +85,29 @@
 .mobile-menu ul li:hover > img{
 	transform: translateX(-25%);
 }
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1023px){
+.mobile-menu{
+	font-size: 4.5vw;
+}
+
+.mobile-menu ul{
+	padding-top: 15vw!important;
+}
+
+.mobile-menu ul::-webkit-scrollbar {
+  width: 7px;
+}
+
+.mobile-menu ul li img{
+	height: 7vw;
+}
+
+.mobile-menu ul li:hover > img{
+	transform: translateX(-15%);
+}
+}

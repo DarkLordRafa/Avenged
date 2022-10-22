@@ -11,7 +11,7 @@
 
 .mobile-menu-button span{
 	display: block;
-	height: 3px;
+	height: 0.8vw;
 	width: 8vw;
 	background-color: white;
 	margin-bottom: 2vw;
@@ -27,19 +27,36 @@
 }
 
 .deathbat-eyes{
-	margin-bottom: 5vw;
+	margin-bottom: 4vw;
 }
 
 .deathbat-eyes div{
 	height: 1.5vw;
 	width: 1.5vw;
 	border-radius: 50%;
-	margin-left: 4.5vw;
-	margin-right: 4.5vw;
+	margin-left: 4vw;
+	margin-right: 4vw;
 	transition: 0.4s ease-in;
 }
 
 .deathbat-eyes-active{
 	background-color: white;
 	box-shadow: 0 0 7vw 5vw blue;
+}
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1023px){
+.mobile-menu-button{
+	border-radius: 20px;
+	padding: 3vw;
+}
+
+.mobile-menu-button span{
+	height: 0.7vw;
+	width: 6vw;
+	margin-bottom: 1.5vw;
+}
 }

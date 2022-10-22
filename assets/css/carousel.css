@@ -9,3 +9,19 @@
 	width: 90vw;
 	object-fit: cover;
 }
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1023px){
+.carousel{
+	height: 40vw;
+	width: 70vw;
+}
+
+.carousel-item img{
+	height: 40vw;
+	width: 70vw;
+}
+}

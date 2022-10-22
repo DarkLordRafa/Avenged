@@ -31,11 +31,11 @@ h1, h2, h3{
 
 h2, h3{
 	font-family: "Armalite";
-	font-size: 12vw;
+	font-size: 11vw;
 }
 
 h1{
-	font-size: 7vw;
+	font-size: 6.5vw;
 	font-weight: bold;
 }
 
@@ -67,6 +67,7 @@ section p{
 
 .section__container ul{
 	padding: 0!important;
+	font-size: 4.5vw;
 }
 
 .section__container ul a{
@@ -78,4 +79,57 @@ section p{
 
 .section__container ul a:hover{
 	color: #708090!important;
+}
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1023px){
+h2, h3{
+	font-family: "Armalite";
+	font-size: 9vw;
+}
+
+h1{
+	font-size: 6vw;
+	font-weight: bold;
+}
+
+.container{
+	padding-left: 10vw!important;
+	padding-right: 10vw!important;
+}
+
+section p{
+	font-size: 4vw;
+}
+
+.section__container video{
+	width: 70vw;
+	height: 40vw;
+}
+
+.section__container img{
+	height: 40vw;
+	width: 100%;
+}
+
+.section__container figure{
+	width: 100%;
+}
+
+.section__container figcaption{
+	text-align: left;
+	color: #A9A9A9;
+	font-size: 3vw;
+}
+
+.section__container ul{
+	font-size: 4vw;
+}
+
+.section__container ul a{
+	font-size: 5vw;
+}
 }

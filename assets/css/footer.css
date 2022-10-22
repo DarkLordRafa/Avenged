@@ -8,3 +8,13 @@
 	text-decoration: underline;
 	color: white!important;
 }
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1023px){
+.footer__copy{
+	font-size: 3.5vw;
+}
+}
