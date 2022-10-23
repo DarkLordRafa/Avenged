@@ -57,12 +57,16 @@ section p{
 
 .section__container figure{
 	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .section__container figcaption{
 	text-align: left;
 	color: #A9A9A9;
 	font-size: 4vw;
+	align-self: flex-start;
 }
 
 .section__container ul{
@@ -87,13 +91,11 @@ section p{
 
 @media (min-width: 768px) and (max-width: 1023px){
 h2, h3{
-	font-family: "Armalite";
 	font-size: 9vw;
 }
 
 h1{
 	font-size: 6vw;
-	font-weight: bold;
 }
 
 .container{
@@ -112,16 +114,9 @@ section p{
 
 .section__container img{
 	height: 40vw;
-	width: 100%;
-}
-
-.section__container figure{
-	width: 100%;
 }
 
 .section__container figcaption{
-	text-align: left;
-	color: #A9A9A9;
 	font-size: 3vw;
 }
 
@@ -131,5 +126,47 @@ section p{
 
 .section__container ul a{
 	font-size: 5vw;
+}
+}
+
+
+
+@media (min-width: 1024px){
+h2, h3{
+	font-size: 9vh;
+}
+
+h1{
+	font-size: 5vh;
+}
+
+.container{
+	padding-left: 10vw!important;
+	padding-right: 10vw!important;
+}
+
+section p{
+	font-size: 5vh;
+}
+
+.section__container video{
+	width: 70vw;
+	height: 50vh;
+}
+
+.section__container img{
+	height: 60vh;
+}
+
+.section__container figcaption{
+	font-size: 3.5vh;
+}
+
+.section__container ul{
+	font-size: 5vh;
+}
+
+.section__container ul a{
+	font-size: 5.5vh;
 }
 }

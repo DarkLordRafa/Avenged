@@ -24,4 +24,40 @@
 	height: 40vw;
 	width: 70vw;
 }
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+	height: 80%!important;
+	width: 80%!important;
+}
+
+.carousel-indicators button{
+	height: 5px!important;
+	width: 6vw!important;
+	margin: 0 1vw!important;
+}
+}
+
+
+
+@media (min-width: 1024px){
+.carousel{
+	height: 60vh;
+	width: 70vw;
+}
+
+.carousel-item img{
+	height: 60vh;
+	width: 70vw;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+	height: 50%!important;
+	width: 50%!important;
+}
+
+.carousel-indicators button{
+	height: 5px!important;
+	width: 4vh!important;
+	margin: 0 1vh!important;
+}
 }

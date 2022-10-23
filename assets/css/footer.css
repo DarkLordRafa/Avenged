@@ -18,3 +18,11 @@
 	font-size: 3.5vw;
 }
 }
+
+
+
+@media (min-width: 1024px){
+.footer__copy{
+	font-size: 4.5vh;
+}
+}

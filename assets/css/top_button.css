@@ -1,0 +1,42 @@
+
+.top-button{
+	bottom: 8vh;
+	right: 8vw;
+	background-color: black;
+	cursor: pointer;
+	transition: 0.5s;
+	height: 12vw;
+	width: 12vw;
+	z-index: 97;
+	opacity: 0;
+	border: 0.6vw solid white;
+}
+
+.top-button img{
+	height: 7vw;
+	width: 7vw;
+	object-fit: contain;
+}
+
+.top-button-enabled{
+	opacity: 1;
+}
+
+
+
+
+
+@media (min-width: 1024px){
+.top-button{
+	bottom: 8vh;
+	right: 8vh;
+	height: 8vh;
+	width: 8vh;
+	border: 0.6vh solid white;
+}
+
+.top-button img{
+	height: 5vh;
+	width: 5vh;
+}
+}

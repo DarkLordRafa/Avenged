@@ -103,11 +103,15 @@
   width: 7px;
 }
 
-.mobile-menu ul li img{
-	height: 7vw;
-}
-
 .mobile-menu ul li:hover > img{
 	transform: translateX(-15%);
+}
+}
+
+
+
+@media (min-width: 1024px){
+.mobile-menu-modal{
+	display: none;
 }
 }

@@ -41,8 +41,13 @@
 
 .deathbat-eyes-active{
 	background-color: white;
-	box-shadow: 0 0 7vw 5vw blue;
+	box-shadow: 0 0 7vw 5vw #3F00FF;
 }
+
+.desktop-menu{
+	display: none;
+}
+
 
 
 
@@ -58,5 +63,48 @@
 	height: 0.7vw;
 	width: 6vw;
 	margin-bottom: 1.5vw;
+}
+}
+
+
+
+@media (min-width: 1024px){
+.mobile-menu-button{
+	display: none;
+}
+
+.header__logo{
+	width: 50%;
+}
+
+.deathbat-eyes{
+	margin-bottom: 3.5vh;
+}
+
+.deathbat-eyes div{
+	height: 1.5vh;
+	width: 1.5vh;
+	margin-left: 3.5vh;
+	margin-right: 3.5vh;
+}
+
+.deathbat-eyes-active{
+	box-shadow: 0 0 6vh 4vh #3F00FF;
+}
+	
+.desktop-menu{
+	display: flex;
+}
+
+.desktop-menu a{
+	color: white!important;
+	border-bottom: 3px solid transparent;
+	font-weight: bold;
+	font-size: 3vh;
+	text-transform: uppercase;
+}
+
+.desktop-menu a:hover{
+	border-bottom: 3px solid white;
 }
 }
